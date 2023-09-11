@@ -8,7 +8,7 @@ The Code Uses Facade Pattern Along with Single Responsibility Principles
 <li>Criteria.py Take Care Of Renter Criteria</li>
 <li>Renter.py Store Renter Object</li>
 <li>Criteria.py Capture Renter Criterias</li>
-<li>CarRentalCompany is the Facade which leverage various functionality from a Car Rental Prospective <b>To Be Implemented</b></li>
+<li>CarRentalCompany is the [Facade Pattern](https://medium.com/design-patterns-in-python/facade-design-pattern-a29c94776870) which leverage various functionality from a Car Rental Prospective <b>To Be Implemented</b></li>
 <li>Booking.py Covers Booking Object <b>To Be Implemented</b></li>
 <li>BookingManager.py Covers Booking Related Functionality <b>To Be Implemented</b></li>
 <li>CarAvailabilityManager.py Check for Car Availability In Particular Dates</li>
