@@ -1,8 +1,10 @@
 import threading
+from src.Availability.CarAvailabilityManager import CarAvailabilityManager
 
 class CarRentalCompany:
     def __init__(self):
         self.cars = []
+        self.car_availability_manager = CarAvailabilityManager()
         self.lock = threading.Lock()
 
     def add_car(self, car):
